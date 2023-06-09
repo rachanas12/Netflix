@@ -1,0 +1,273 @@
+*{margin: 0;}
+#home{
+    height: 759px;
+    background-image: url(./Assets/homepagebgrnd.jpg);
+
+}
+#homepage{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 759px;
+    color: aliceblue;
+}
+#logo{
+    width:200px ; 
+    padding-left: 100px; 
+}
+#logo img{
+    height: 130px;
+    width: 200px;
+}
+
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#menu{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 200px;
+   
+}
+#menu1{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+#menu1 h1{
+    font-size: 2.5ch;
+    font-weight: bold;
+    padding-top: 4px;
+    
+}
+#English{
+    font-weight: 550;
+    font-size: 2ch;
+}
+#menu2{
+    background-color: red;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2ch;
+    padding: 5px;
+}
+#texthome{
+    height: 400px;
+width: 1000px;
+position: absolute;
+left: 25ch;
+top: 35ch;
+
+}
+#texthome h1{
+    
+    font-size: 7ch;
+    font-weight: bolder;
+}
+#texthome h2{
+    font-size: 3.7ch;
+    font-weight: 400;
+    padding-left: 250px;
+}
+#texthome h3{
+    font-size: 3ch;
+    font-weight: 200;
+    padding-left: 120px;
+}
+#texthome h4,#comp5text h4{
+    display: flex;
+    text-align: center;
+    width: 800px;
+    padding-left: 100px;
+    padding-top:10px ;
+}
+#texthome button,#comp5text button{
+width: 200px;
+border-radius: 10px;
+margin-left: 10px;
+background-color: red;
+color: white;
+font-size: x-large;
+font-weight: bold;
+cursor: pointer;
+}
+#email{
+    height: 50px;
+    border-radius: 10px;
+background-color: rgb(19, 18, 18);
+color: white;
+font-size: larger;
+font-weight: bold;
+border: 0.2cqb solid white;
+text-align: start;
+width: 400px;
+padding-left: 10px;
+cursor: pointer;
+}
+.comp1{
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+}
+
+.hr{
+    border-width: 7px;
+    border-color: rgb(71, 70, 70);
+}
+#tv img{
+    height: 400px;
+    width: 400px;
+}
+#tv video{
+    position: relative;
+    height: 450px;
+    width: 290px;
+   left: 345px;
+   top: 10px;
+}#comp1text{width: 500px;}
+#comp1text h1{
+    font-size: 7.8ch;
+    font-weight: bolder;
+}
+#comp1text p{
+    font-size: 3.5ch;
+    font-weight: 400;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding-top: 20px;
+}
+#comp2text{
+    width: 550px;
+    height: 400px;
+    padding-top: 200px;
+}
+#comp2text h1,#comp4text h1{
+    font-size: 7ch;
+    height: 140px;
+}
+#comp2text h3,#comp4text h3{
+    font-size: 3.2ch;
+    font-weight: 300; 
+}
+#comp3div{
+height: 400px;
+width: 600px;
+z-index: 1;
+}
+#comp3div video{
+    height: 300px;
+    width: 390px;
+    padding-left: 115px;
+    z-index: 2;
+}
+#comp3div img{
+z-index: 3;
+position: relative;
+    bottom: 300px;
+}
+#comp3text h1{
+    font-size: 8ch;
+    font-weight: bold;
+}
+#comp3text p{
+    font-size: 3ch;
+    font-weight: 300;
+}
+#comp3text{
+    width: 600px;
+}
+.comp5{
+    background-color: black;
+    color: white;
+    height: 900px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+
+}
+.buttons p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    font-size: 3ch;
+    
+}
+.buttons{
+    width: 800px;
+    padding-left: 50px;
+}
+.boxes{
+    background-color: rgb(54, 52, 52);
+    cursor: pointer;
+    padding: 10px;
+}
+.boxes:hover{
+    opacity: 0.7;
+}
+#h1text{
+    font-size: 8ch;
+}
+#comp5text h3{
+    font-size: 3ch;
+    font-weight: 200;
+}
+.footer{
+    background-color: black;
+    color: rgb(194, 175, 175);
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.footerdiv{
+    display: grid;
+    font-size: 2ch;
+    width:300px ;
+    text-align: start;
+}
+#footernav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    padding-right: 200px;
+}
+.footerdiv a{
+    padding: 15px;
+    color: rgb(184, 178, 178);
+}
+.footer p a{
+    color: aliceblue;
+    padding-top: 3px;
+}
+.footer p{
+    text-align: start;
+    display: flex;
+    padding-top: 30px;
+}
